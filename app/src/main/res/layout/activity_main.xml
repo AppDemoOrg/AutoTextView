@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.abt.auto.MainActivity">
+
+    <TextView
+        android:layout_width="@dimen/dp_37.5"
+        android:layout_height="@dimen/dp_28"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/definition_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/smooth_definition"
+        android:textColor="@color/C_F8_F8_F8"
+        android:textSize="@dimen/sp_14"
+        android:visibility="visible" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_10">
+    </View>
+
+    <com.abt.auto.AutoFitTextView
+        android:id="@+id/auto_fit"
+        android:paddingLeft="@dimen/dp_3"
+        android:paddingRight="@dimen/dp_3"
+        android:onClick="onClick"
+        android:layout_width="@dimen/dp_37.5"
+        android:layout_height="@dimen/dp_28"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/definition_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/smooth_definition"
+        android:textColor="@color/C_F8_F8_F8"
+        android:textSize="@dimen/sp_14"
+        android:visibility="visible" />
+
+</LinearLayout>

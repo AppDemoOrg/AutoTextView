@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BatteryView">
+        <attr name="batteryBackground" format="reference" />
+        <attr name="batteryLevel" format="reference" />
+        <attr name="batteryChargeIcon" format="reference" />
+        <attr name="batteryOrientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+        <attr name="batteryPower" format="integer"/>
+    </declare-styleable>
+
+    <!--自定义单选组分割线-->
+    <declare-styleable name="BorderTextView">
+        <!--边框的粗度-->
+        <attr name="borderStrokeWidth" format="dimension"/>
+        <!--边框颜色-->
+        <attr name="borderColor" format="color"/>
+        <!--底边边线左边断开距离-->
+        <attr name="borderBottomLeftMargin" format="dimension"/>
+        <!--底边边线右边断开距离-->
+        <attr name="borderBottomRightMargin" format="dimension"/>
+        <!--是否需要上边框-->
+        <attr name="topBorderVisible" format="boolean"/>
+        <!--是否需要左右边框-->
+        <attr name="leftAndRightBorderVisible" format="boolean"/>
+        <!--是否需要下边框-->
+        <attr name="bottomBorderVisible" format="boolean"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AutoTextView</string>
+    <string name="k4_definition">4K</string>
+    <string name="high_definition">HD</string>
+    <string name="standard_definition">SD</string>
+    <string name="smooth_definition">Fluent</string><!--Fluent-->
+    <string name="time_setting_morning">AM</string>
+    <string name="time_setting_afternoon">PM</string>
+    <string name="ok">OK</string>
+    <string name="low_battery_tips">Battery power is less than {0}%, please recharge as soon as possible.</string>
+</resources>
